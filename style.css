@@ -11,12 +11,17 @@ body{
   color: hsl(215, 52%, 70%);
   font-size: 18px;
   font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
 }
 
 .container{
   max-width: 100%;
   width: 300px;
-  margin: 100px auto 60px;
+  /* margin: 100px auto 60px; */
   background-color: hsl(216, 50%, 16%);
   padding: 18px;
   border-radius: 10px;
@@ -39,6 +44,10 @@ p{
   max-width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+
+.nft-img:hover{
+  
 }
 
 span{
